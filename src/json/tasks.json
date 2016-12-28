@@ -1,0 +1,22 @@
+[
+  {
+    "firstName":"Valera",
+    "lastName":"Volosyan",
+    "tasks":[ "task1", "task2", "task3"]
+  },
+  {
+    "firstName":"Igor",
+    "lastName":"Volosyan",
+    "tasks":[ "task1", "task2", "task3"]
+  },
+  {
+    "firstName":"Dmitry",
+    "lastName":"Volosyan",
+    "tasks":[ "task1", "task2", "task3"]
+  },
+  {
+    "firstName":"Ivan",
+    "lastName":"Volosyan",
+    "tasks":[ "task1", "task2", "task3"]
+  }
+]

@@ -1,0 +1,25 @@
+<div>
+  <form>
+    <p>
+      <label>Name: </label>
+      <input type = "text" ng-model = "$ctrl.firstName" ng-model = "$ctrl.firstName">
+    </p>
+    <p>
+      <label>Lastname: </label>
+      <input type = "text" ng-model = "$ctrl.lastName" ng-model = "$ctrl.lastName">
+    </p>
+    <p>
+      <input type="submit" value="Oo" ng-click="$ctrl.getTasks()">
+    </p>
+  </form>
+  <h1>Unit Testing AngularJS 1.5</h1>
+</div>
+<div ng-show="$ctrl.showTasks">
+  <ul>
+    <li ng-repeat = "task in $ctrl.service.tasks">{{task}}</li>
+  </ul>
+  <input type="button" value = "Show message" ng-click="$ctrl.getMessage()">
+  <p>
+    {{$ctrl.message}}
+  </p>
+</div>
